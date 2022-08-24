@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/mouadh/Desktop/Exercice1'
+gcc -Wall Server.c -o ./build/Server
+gcc -Wall Client.c -o ./build/Client
+make: Leaving directory '/home/mouadh/Desktop/Exercice1'
+ 
