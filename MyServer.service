@@ -1,7 +1,0 @@
-[Unit]
-Description=my server
-[Service]
-ExecStart=/home/mouadh/Desktop/Focus_2022/Integration-ex/TCP_Server_Client/build/Server
-Restart=always
-[Install]
-WantedBy=multi-user.target

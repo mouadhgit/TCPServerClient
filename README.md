@@ -5,10 +5,9 @@ TCP Server Client Project
 
 Features
 --------
-- Server.c Client.c
+- Multiclients TCP server with Tthreads pool technique support cores number + 1 Clients
+- TCP Client to test the communication
 - Makefile to build the project
-- Sript shell InstallServerService.sh to automate the creation of systemd service 
-
 
 Dependencies
 ------------
@@ -16,12 +15,10 @@ Dependencies
 - gcc compiler
 - make
 
-For compilation and service creation for our server  
---------------------------------------------------
-- make
-- sudo chmod +x InstallServerService.sh 
-- ./InstallServerService.sh 
-- To test the communication open new terminal and run ./build/Client 
+For compilation and run the solution
+------------------------------------
+- make run    
+
 
 
 
